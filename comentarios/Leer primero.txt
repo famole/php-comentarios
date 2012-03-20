@@ -1,0 +1,10 @@
+Veo que te has descargado el sistema de comentarios con Base de datos.
+
+ 1 - Primero, agradecerte tu visita a nuestra web www.mipolaris.com
+ 2 - Decirte, que si tienes alguna duda en el código, nos lo digas.
+ 3 - Tercero, pedirte si quieres poner un enlace hacia nuestra web. Aquí os dejo el código,
+
+por si lo hacéis. Gracias.
+
+
+<a href="http://www.mipolaris.com/" target="_blank"><img src="http://www.mipolaris.com/imagenes/logo.jpg" alt="www.mipolaris.com" width="100" height="57" border="0" /></a> 

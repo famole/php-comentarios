@@ -1,0 +1,26 @@
+CREATE TABLE `administracion` (
+  `userid` varchar(8) NOT NULL,
+  `password` varchar(8) NOT NULL,
+  UNIQUE KEY `userid` (`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+INSERT INTO `administracion` VALUES ('admin', 'test');
+
+-- --------------------------------------------------------
+
+
+CREATE TABLE `comentarios` (
+  `post_id` int(5) NOT NULL auto_increment,
+  `publicado` varchar(10) NOT NULL,
+  `fecha` date NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `comentarios` text NOT NULL,
+  `estado` varchar(4) NOT NULL default 'SR',
+  UNIQUE KEY `post_id` (`post_id`,`publicado`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
+
